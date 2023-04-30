@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+
+main {
+    width: 100%;
+}
+
+nav {
+    height: 5vh;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+.link-big-text {
+    font-size: 2vw;
+    padding: 1vh 3vw;
+}
+
+.logo {
+    padding-left: .5vw;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    width: 2%;
+}
+
+.splash-image {
+    align-self: flex-start;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container-centered {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.white-back {
+    background-color: white;
+}
+
+.dark-back {
+    background-color: #292d3e;
+    color:rgb(255, 255, 255);
+}
+
+.image-back {
+    background-image: url("../images/office.jpg");
+    height: 95vh;
+    color:white;
+}
+
+.text-stroke {
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.center-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#paragraph-block {
+    font-size: 1vw;
+    font-family: sans-serif;
+    margin-left: 10vw;
+}
+
+.box {
+    border-style: solid;
+    border-color: black;
+    background-color: gray;
+    padding: 2vh 2vw;
+}
